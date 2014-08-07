@@ -3,7 +3,7 @@ BTBackgroundTransfer
 
 BTBackgroundTransfer is compatible a Background Transfer function available from ios7.
 
-# Installation
+# Installation & Use
 You can do this in just 4 steps;
 
 1, Import BTBackgroundTransfer.
