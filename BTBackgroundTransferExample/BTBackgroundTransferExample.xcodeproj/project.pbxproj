@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7116673D1993CFEE004C2640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116673C1993CFEE004C2640 /* Foundation.framework */; };
+		7116673F1993CFEE004C2640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116673E1993CFEE004C2640 /* CoreGraphics.framework */; };
+		711667411993CFEE004C2640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711667401993CFEE004C2640 /* UIKit.framework */; };
+		711667471993CFEE004C2640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711667451993CFEE004C2640 /* InfoPlist.strings */; };
+		711667491993CFEE004C2640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711667481993CFEE004C2640 /* main.m */; };
+		7116674D1993CFEE004C2640 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116674C1993CFEE004C2640 /* BTAppDelegate.m */; };
+		711667501993CFEE004C2640 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7116674E1993CFEE004C2640 /* Main_iPhone.storyboard */; };
+		711667531993CFEE004C2640 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711667511993CFEE004C2640 /* Main_iPad.storyboard */; };
+		711667561993CFEE004C2640 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711667551993CFEE004C2640 /* BTViewController.m */; };
+		711667581993CFEE004C2640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711667571993CFEE004C2640 /* Images.xcassets */; };
+		7116675F1993CFEE004C2640 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116675E1993CFEE004C2640 /* XCTest.framework */; };
+		711667601993CFEE004C2640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116673C1993CFEE004C2640 /* Foundation.framework */; };
+		711667611993CFEE004C2640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711667401993CFEE004C2640 /* UIKit.framework */; };
+		711667691993CFEE004C2640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711667671993CFEE004C2640 /* InfoPlist.strings */; };
+		7116676B1993CFEE004C2640 /* BTBackgroundTransferExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116676A1993CFEE004C2640 /* BTBackgroundTransferExampleTests.m */; };
+		711667771993D046004C2640 /* BTBackgroundTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 711667761993D046004C2640 /* BTBackgroundTransfer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711667621993CFEE004C2640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711667311993CFEE004C2640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711667381993CFEE004C2640;
+			remoteInfo = BTBackgroundTransferExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711667391993CFEE004C2640 /* BTBackgroundTransferExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTBackgroundTransferExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116673C1993CFEE004C2640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7116673E1993CFEE004C2640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		711667401993CFEE004C2640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		711667441993CFEE004C2640 /* BTBackgroundTransferExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTBackgroundTransferExample-Info.plist"; sourceTree = "<group>"; };
+		711667461993CFEE004C2640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711667481993CFEE004C2640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7116674A1993CFEE004C2640 /* BTBackgroundTransferExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTBackgroundTransferExample-Prefix.pch"; sourceTree = "<group>"; };
+		7116674B1993CFEE004C2640 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		7116674C1993CFEE004C2640 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		7116674F1993CFEE004C2640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		711667521993CFEE004C2640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		711667541993CFEE004C2640 /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		711667551993CFEE004C2640 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		711667571993CFEE004C2640 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7116675D1993CFEE004C2640 /* BTBackgroundTransferExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTBackgroundTransferExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116675E1993CFEE004C2640 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		711667661993CFEE004C2640 /* BTBackgroundTransferExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTBackgroundTransferExampleTests-Info.plist"; sourceTree = "<group>"; };
+		711667681993CFEE004C2640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7116676A1993CFEE004C2640 /* BTBackgroundTransferExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTBackgroundTransferExampleTests.m; sourceTree = "<group>"; };
+		711667751993D046004C2640 /* BTBackgroundTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTBackgroundTransfer.h; path = ../../BTBackgroundTransfer/BTBackgroundTransfer.h; sourceTree = "<group>"; };
+		711667761993D046004C2640 /* BTBackgroundTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTBackgroundTransfer.m; path = ../../BTBackgroundTransfer/BTBackgroundTransfer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711667361993CFEE004C2640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116673F1993CFEE004C2640 /* CoreGraphics.framework in Frameworks */,
+				711667411993CFEE004C2640 /* UIKit.framework in Frameworks */,
+				7116673D1993CFEE004C2640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7116675A1993CFEE004C2640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116675F1993CFEE004C2640 /* XCTest.framework in Frameworks */,
+				711667611993CFEE004C2640 /* UIKit.framework in Frameworks */,
+				711667601993CFEE004C2640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711667301993CFEE004C2640 = {
+			isa = PBXGroup;
+			children = (
+				711667741993D00E004C2640 /* BTBackgroundTransfer */,
+				711667421993CFEE004C2640 /* BTBackgroundTransferExample */,
+				711667641993CFEE004C2640 /* BTBackgroundTransferExampleTests */,
+				7116673B1993CFEE004C2640 /* Frameworks */,
+				7116673A1993CFEE004C2640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7116673A1993CFEE004C2640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711667391993CFEE004C2640 /* BTBackgroundTransferExample.app */,
+				7116675D1993CFEE004C2640 /* BTBackgroundTransferExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7116673B1993CFEE004C2640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7116673C1993CFEE004C2640 /* Foundation.framework */,
+				7116673E1993CFEE004C2640 /* CoreGraphics.framework */,
+				711667401993CFEE004C2640 /* UIKit.framework */,
+				7116675E1993CFEE004C2640 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		711667421993CFEE004C2640 /* BTBackgroundTransferExample */ = {
+			isa = PBXGroup;
+			children = (
+				7116674B1993CFEE004C2640 /* BTAppDelegate.h */,
+				7116674C1993CFEE004C2640 /* BTAppDelegate.m */,
+				7116674E1993CFEE004C2640 /* Main_iPhone.storyboard */,
+				711667511993CFEE004C2640 /* Main_iPad.storyboard */,
+				711667541993CFEE004C2640 /* BTViewController.h */,
+				711667551993CFEE004C2640 /* BTViewController.m */,
+				711667571993CFEE004C2640 /* Images.xcassets */,
+				711667431993CFEE004C2640 /* Supporting Files */,
+			);
+			path = BTBackgroundTransferExample;
+			sourceTree = "<group>";
+		};
+		711667431993CFEE004C2640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711667441993CFEE004C2640 /* BTBackgroundTransferExample-Info.plist */,
+				711667451993CFEE004C2640 /* InfoPlist.strings */,
+				711667481993CFEE004C2640 /* main.m */,
+				7116674A1993CFEE004C2640 /* BTBackgroundTransferExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711667641993CFEE004C2640 /* BTBackgroundTransferExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7116676A1993CFEE004C2640 /* BTBackgroundTransferExampleTests.m */,
+				711667651993CFEE004C2640 /* Supporting Files */,
+			);
+			path = BTBackgroundTransferExampleTests;
+			sourceTree = "<group>";
+		};
+		711667651993CFEE004C2640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711667661993CFEE004C2640 /* BTBackgroundTransferExampleTests-Info.plist */,
+				711667671993CFEE004C2640 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711667741993D00E004C2640 /* BTBackgroundTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				711667751993D046004C2640 /* BTBackgroundTransfer.h */,
+				711667761993D046004C2640 /* BTBackgroundTransfer.m */,
+			);
+			name = BTBackgroundTransfer;
+			path = BTBackgroundTransferExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711667381993CFEE004C2640 /* BTBackgroundTransferExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7116676E1993CFEE004C2640 /* Build configuration list for PBXNativeTarget "BTBackgroundTransferExample" */;
+			buildPhases = (
+				711667351993CFEE004C2640 /* Sources */,
+				711667361993CFEE004C2640 /* Frameworks */,
+				711667371993CFEE004C2640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTBackgroundTransferExample;
+			productName = BTBackgroundTransferExample;
+			productReference = 711667391993CFEE004C2640 /* BTBackgroundTransferExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7116675C1993CFEE004C2640 /* BTBackgroundTransferExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711667711993CFEE004C2640 /* Build configuration list for PBXNativeTarget "BTBackgroundTransferExampleTests" */;
+			buildPhases = (
+				711667591993CFEE004C2640 /* Sources */,
+				7116675A1993CFEE004C2640 /* Frameworks */,
+				7116675B1993CFEE004C2640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711667631993CFEE004C2640 /* PBXTargetDependency */,
+			);
+			name = BTBackgroundTransferExampleTests;
+			productName = BTBackgroundTransferExampleTests;
+			productReference = 7116675D1993CFEE004C2640 /* BTBackgroundTransferExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711667311993CFEE004C2640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Keisuke Karijuku";
+				TargetAttributes = {
+					7116675C1993CFEE004C2640 = {
+						TestTargetID = 711667381993CFEE004C2640;
+					};
+				};
+			};
+			buildConfigurationList = 711667341993CFEE004C2640 /* Build configuration list for PBXProject "BTBackgroundTransferExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711667301993CFEE004C2640;
+			productRefGroup = 7116673A1993CFEE004C2640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711667381993CFEE004C2640 /* BTBackgroundTransferExample */,
+				7116675C1993CFEE004C2640 /* BTBackgroundTransferExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711667371993CFEE004C2640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711667531993CFEE004C2640 /* Main_iPad.storyboard in Resources */,
+				711667581993CFEE004C2640 /* Images.xcassets in Resources */,
+				711667501993CFEE004C2640 /* Main_iPhone.storyboard in Resources */,
+				711667471993CFEE004C2640 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7116675B1993CFEE004C2640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711667691993CFEE004C2640 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711667351993CFEE004C2640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711667771993D046004C2640 /* BTBackgroundTransfer.m in Sources */,
+				711667561993CFEE004C2640 /* BTViewController.m in Sources */,
+				7116674D1993CFEE004C2640 /* BTAppDelegate.m in Sources */,
+				711667491993CFEE004C2640 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711667591993CFEE004C2640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116676B1993CFEE004C2640 /* BTBackgroundTransferExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711667631993CFEE004C2640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711667381993CFEE004C2640 /* BTBackgroundTransferExample */;
+			targetProxy = 711667621993CFEE004C2640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711667451993CFEE004C2640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711667461993CFEE004C2640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7116674E1993CFEE004C2640 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7116674F1993CFEE004C2640 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		711667511993CFEE004C2640 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711667521993CFEE004C2640 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		711667671993CFEE004C2640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711667681993CFEE004C2640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7116676C1993CFEE004C2640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7116676D1993CFEE004C2640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7116676F1993CFEE004C2640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTBackgroundTransferExample/BTBackgroundTransferExample-Prefix.pch";
+				INFOPLIST_FILE = "BTBackgroundTransferExample/BTBackgroundTransferExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		711667701993CFEE004C2640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTBackgroundTransferExample/BTBackgroundTransferExample-Prefix.pch";
+				INFOPLIST_FILE = "BTBackgroundTransferExample/BTBackgroundTransferExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		711667721993CFEE004C2640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTBackgroundTransferExample.app/BTBackgroundTransferExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTBackgroundTransferExample/BTBackgroundTransferExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTBackgroundTransferExampleTests/BTBackgroundTransferExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		711667731993CFEE004C2640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTBackgroundTransferExample.app/BTBackgroundTransferExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTBackgroundTransferExample/BTBackgroundTransferExample-Prefix.pch";
+				INFOPLIST_FILE = "BTBackgroundTransferExampleTests/BTBackgroundTransferExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711667341993CFEE004C2640 /* Build configuration list for PBXProject "BTBackgroundTransferExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116676C1993CFEE004C2640 /* Debug */,
+				7116676D1993CFEE004C2640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7116676E1993CFEE004C2640 /* Build configuration list for PBXNativeTarget "BTBackgroundTransferExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116676F1993CFEE004C2640 /* Debug */,
+				711667701993CFEE004C2640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711667711993CFEE004C2640 /* Build configuration list for PBXNativeTarget "BTBackgroundTransferExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711667721993CFEE004C2640 /* Debug */,
+				711667731993CFEE004C2640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711667311993CFEE004C2640 /* Project object */;
+}
