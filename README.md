@@ -8,7 +8,7 @@ You can do this in just 4 steps;
 
 1, Import BTBackgroundTransfer.
 
-2, Add this codes to AppDelegate.
+2, Add this code to AppDelegate.
 
     - (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler {
         BTBackgroundTransfer *sharedManager = [BTBackgroundTransfer sharedManager];
